@@ -68,7 +68,7 @@ namespace ScanCode
                 //sw.WriteLine("@echo on");
                 sw.WriteLine("cd " + foldername.Text);
                 sw.WriteLine("findstr" + parameters + "/C:\"" + searchString.Text + "\" " + filenamePattern.Text + " > " + outputFilename);
-                sw.WriteLine("wait 5");
+                //sw.WriteLine("wait 5");
                 sw.Close();
             }
             return batFilename;

@@ -5,6 +5,11 @@
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ProductName>ScanCode</ProductName>
+    <Title>Scon Code</Title>
+    <Company>GravitySquid Enterprises</Company>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <Copyright>Justin Bannerman 2023</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,3 +17,4 @@
   </ItemGroup>
 
 </Project>
+
